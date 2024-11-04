@@ -1,49 +1,125 @@
 "use client";
+import React from "react";
 import { RxInstagramLogo } from "react-icons/rx";
+import { FaStar } from "react-icons/fa";
 
 const Review = () => {
   return (
-    <div className="pb-24">
-      <div className="text-center">
+    <div className="py-16 mb-6 md:py-24 mx-[5%] md:mx-0 md:pl-[5%]">
+      <div className="text-center animation md:pr-[5%]">
         <h2 className="text-3xl">what people say</h2>
         <hr className="h-1 w-[10%] mx-auto bg-[#2d2d2d] mt-3" />
         <p className="mt-4">
           what other people say is the result of our hard work
         </p>
       </div>
-      <div className="grid grid-cols-3 gap-4 mt-12">
-        <div className="p-3 bg-[#eeee]">
-          <div className="flex items-center gap-1 text-xl">
-            <RxInstagramLogo />
-            <h3>lanang_brlln4</h3>
+      <div>
+        <div className="mt-[4rem] grid grid-flow-col auto-cols-[60%] md:auto-cols-[40%] gap-4 overflow-auto pr-0">
+          <div className="bg-[#eeee] p-4 flex flex-col justify-between">
+            <div className=" ">
+              <div className="flex items-center gap-2 mb-2">
+                <p className="text-2xl">
+                  <RxInstagramLogo />
+                </p>
+                <div className="font-semibold">@name</div>
+              </div>
+              {/* <div className="flex text-yellow-500 gap-2">
+                {Array(3)
+                  .fill(null)
+                  .map((value, index) => (
+                    <FaStar key={index} />
+                  ))}
+              </div> */}
+              <p className="py-3">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
+                maiores corporis laborum, expedita odio repudiandae.
+              </p>
+            </div>
           </div>
-          <p className="mt-1">
-            I really like the products from @narratif.apparel because the models
-            are very good, contemporary and the material is of very good quality
-            for anyone to wear.
-          </p>
-        </div>
-        <div className="p-3 bg-[#eeee]">
-          <div className="flex items-center gap-1 text-xl">
-            <RxInstagramLogo />
-            <h3>heru031</h3>
+          <div className=" bg-[#eeee] p-4 flex flex-col justify-between">
+            <div className="md:h-[200px]">
+              <div className="flex items-center gap-2 mb-2">
+                <p className="text-2xl">
+                  <RxInstagramLogo />
+                </p>
+                <div className="font-semibold">@name</div>
+              </div>
+              {/* <div className="flex text-yellow-500 gap-2">
+                {Array(3)
+                  .fill(null)
+                  .map((value, index) => (
+                    <FaStar key={index} />
+                  ))}
+              </div> */}
+              <p className="py-3">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
+                maiores corporis laborum, expedita odio repudiandae.
+              </p>
+            </div>
           </div>
-          <p className="mt-1">
-            Because I like the design of the product which is very attractive
-            and has very cool colors, making this product attractive to various
-            groups.
-          </p>
-        </div>
-        <div className="p-3 bg-[#eeee]">
-          <div className="flex items-center gap-1 text-xl">
-            <RxInstagramLogo />
-            <h3>d_nish127</h3>
+          <div className=" bg-[#eeee] p-4 flex flex-col justify-between">
+            <div>
+              <div className="flex items-center gap-2 mb-2">
+                <p className="text-2xl">
+                  <RxInstagramLogo />
+                </p>
+                <div className="font-semibold">@name</div>
+              </div>
+              {/* <div className="flex text-yellow-500 gap-2">
+                {Array(3)
+                  .fill(null)
+                  .map((value, index) => (
+                    <FaStar key={index} />
+                  ))}
+              </div> */}
+              <p className="py-3">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
+                maiores corporis laborum, expedita odio repudiandae.
+              </p>
+            </div>
           </div>
-          <p className="mt-1">
-            Because I saw the first impressions of the narrative product which
-            were very interesting, I can use it for my daily activities and it
-            will also be my vendor of choice when I want to make a new t-shirt.
-          </p>
+          <div className=" bg-[#eeee] p-4 flex flex-col justify-between">
+            <div>
+              <div className="flex items-center gap-2 mb-2">
+                <p className="text-2xl">
+                  <RxInstagramLogo />
+                </p>
+                <div className="font-semibold">@name</div>
+              </div>
+              {/* <div className="flex text-yellow-500 gap-2">
+                {Array(3)
+                  .fill(null)
+                  .map((value, index) => (
+                    <FaStar key={index} />
+                  ))}
+              </div> */}
+              <p className="py-3">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
+                maiores corporis laborum, expedita odio repudiandae.
+              </p>
+            </div>
+          </div>
+          <div className="bg-[#eeee] p-4 flex flex-col justify-between">
+            <div>
+              <div className="flex items-center gap-2 mb-2">
+                <p className="text-2xl">
+                  <RxInstagramLogo />
+                </p>
+                <div className="font-semibold">@name</div>
+              </div>
+              {/* <div className="flex text-yellow-500 gap-2">
+                {Array(3)
+                  .fill(null)
+                  .map((value, index) => (
+                    <FaStar key={index} />
+                  ))}
+              </div> */}
+              <p className="py-3">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
+                maiores corporis laborum, expedita odio repudiandae.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </div>

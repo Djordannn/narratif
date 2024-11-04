@@ -1,11 +1,11 @@
 "use client";
 
 import Image from "../../node_modules/next/image";
-import Img from "@/image/img-about.webp";
+// import Img from "/public/image/img-about.webp";
 
 const Sectionabout = () => {
   return (
-    <div id="sectionAbout">
+    <div id="sectionAbout" className="mx-[5%] animation hidden md:block">
       <div className="py-[84px]">
         {/* <div className="w-[50%]">
           <Image
@@ -20,7 +20,7 @@ const Sectionabout = () => {
             for your story
           </h1>
           {/* <div className="border-about h-1 mt-5 w-[30%] rounded-sm"></div> */}
-          <p className="mt-3 text-center">
+          <p className="mt-3 text-center text-sm">
             everyone has a memorable moment in every corner of their life, the
             clothes/clothes you wear become one of the objects to remember that
             moment. Narratif Apparel is committed to being a friend in every

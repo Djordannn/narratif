@@ -8,6 +8,7 @@ import Banner from "@/components/banner";
 import CardProduct from "@/components/cardProduct";
 import Gallery from "@/components/gallery";
 import Review from "@/components/review";
+import Footer from "@/components/footer";
 
 export default function Home() {
   return (
